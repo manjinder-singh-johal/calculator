@@ -10,7 +10,7 @@
     <div class='container'>
         <div class='calculator'>
             <div class='row top'>
-                <button>C</button>
+                <button onclick='clearDisplay()'>C</button>
                 <div id='display'>0</div>
             </div>
             <div class='row'>
@@ -34,8 +34,8 @@
             <div class='row'>
                 <button onclick='updateDisplay(0)' id='0'>0</button>
                 <button id='decimal'>.</button>
-                <button id='plus'>+</button>
-                <button id='equal'>=</button>
+                <button onclick='onPlusClick()' id='plus'>+</button>
+                <button onclick='onEqualClick()' id='equal'>=</button>
             </div>
         </div>
     </div>
