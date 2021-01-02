@@ -1,1 +1,3 @@
-console.log('script is working');
+const updateDisplay = (number) => {
+    document.getElementById('display').innerHTML = number;
+}
