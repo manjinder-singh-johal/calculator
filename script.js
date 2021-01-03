@@ -8,6 +8,11 @@ const updateDisplay = (number) => {
         display.innerHTML = '';
     }
 
+    // TODO: reset to default font size
+    if (display.innerText.length > 4) {
+        display.style.fontSize = '40px';
+    }
+
     display.innerHTML = display.innerHTML + number;
 }
 

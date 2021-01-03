@@ -28,6 +28,7 @@
     align-items: center;
     width: 320px;
     font-size: 1.5em;
+    overflow: hidden;
 }
 
 button {
