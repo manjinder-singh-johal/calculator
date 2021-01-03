@@ -17,25 +17,25 @@
                 <button onclick='updateDisplay(7)' id='7'>7</button>
                 <button onclick='updateDisplay(8)' id='8'>8</button>
                 <button onclick='updateDisplay(9)' id='9'>9</button>
-                <button onclick='onDivideClick()' id='divide'>/</button>
+                <button class='operator' onclick='onDivideClick()' id='divide'>/</button>
             </div>
             <div class='row'>
                 <button onclick='updateDisplay(4)' id='4'>4</button>
                 <button onclick='updateDisplay(5)' id='5'>5</button>
                 <button onclick='updateDisplay(6)' id='6'>6</button>
-                <button onclick='onMultiplyClick()' id='multiply'>*</button>
+                <button class='operator' onclick='onMultiplyClick()' id='multiply'>*</button>
             </div>
             <div class='row'>
                 <button onclick='updateDisplay(1)' id='1'>1</button>
                 <button onclick='updateDisplay(2)' id='2'>2</button>
                 <button onclick='updateDisplay(3)' id='3'>3</button>
-                <button onclick='onMinusClick()' id='minus'>-</button>
+                <button class='operator' onclick='onMinusClick()' id='minus'>-</button>
             </div>
             <div class='row'>
                 <button onclick='updateDisplay(0)' id='0'>0</button>
-                <button id='decimal'>.</button>
-                <button onclick='onPlusClick()' id='plus'>+</button>
-                <button onclick='onEqualClick()' id='equal'>=</button>
+                <button onclick="updateDisplay('.')" id='decimal'>.</button>
+                <button class='operator' onclick='onPlusClick()' id='plus'>+</button>
+                <button class='operator' onclick='onEqualClick()' id='equal'>=</button>
             </div>
         </div>
     </div>

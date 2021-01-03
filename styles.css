@@ -12,7 +12,7 @@
 }
 
 .calculator {
-    background-color: red;
+    background-color: #e67e22;
     width: 450px;
     height: 600px;
     display: flex;
@@ -25,16 +25,22 @@
 #display {
     display: flex;
     justify-content: flex-end;
-    background-color: green;
     align-items: center;
     width: 320px;
+    font-size: 1.5em;
 }
 
 button {
     height: 2em;
     width: 2em;
     margin: 5px 0;
-    border-radius: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #1abc9c;
+}
+
+.operator {
+    background-color: rgba(172, 255, 47, 0.651);
 }
 
 .top {

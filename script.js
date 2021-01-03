@@ -43,13 +43,13 @@ const onEqualClick = () => {
     number2 = display.innerText;
     let result = 0;
     if (operator === 'plus') {
-        result = parseInt(number1) + parseInt(number2);
+        result = parseFloat(number1) + parseFloat(number2);
     } else if (operator === 'minus') {
-        result = parseInt(number1) - parseInt(number2);
+        result = parseFloat(number1) - parseFloat(number2);
     } else if (operator === 'multiply') {
-        result = parseInt(number1) * parseInt(number2);
+        result = parseFloat(number1) * parseFloat(number2);
     } else if (operator === 'divide') {
-        result = parseInt(number1) / parseInt(number2);
+        result = parseFloat(number1) / parseFloat(number2);
     }
     
     clearDisplay();
