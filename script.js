@@ -4,6 +4,7 @@ let number2 = 0;
 let operator;
 
 const updateDisplay = (number) => {
+
     if (display.innerText === '0') {
         display.innerHTML = '';
     }
@@ -55,6 +56,7 @@ const onEqualClick = () => {
         result = parseFloat(number1) * parseFloat(number2);
     } else if (operator === 'divide') {
         result = parseFloat(number1) / parseFloat(number2);
+        result = result.toFixed(2);
     }
     
     clearDisplay();
